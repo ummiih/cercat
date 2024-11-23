@@ -1,0 +1,9 @@
+'use client';
+
+export default function layout({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="">
+      <div>{children}</div>
+    </div>
+  );
+}

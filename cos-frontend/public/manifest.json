@@ -1,0 +1,26 @@
+{
+  "name": "자격증을 보다 쉽게! cercat",
+  "short_name": "cercat",
+  "description": "자격증을 보다 쉽게 취득할 수 있게 도와주는 플랫폼 Cercat입니다.",
+  "start_url": "/",
+  "display": "standalone",
+  "form_factor": "mobile",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "1025x1024",
+      "type": "image/png",
+      "form_factor": "mobile",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "1025x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "purpose": "any maskable"
+    }
+  ]
+}

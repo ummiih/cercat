@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* 온보딩, 게시판 선택시 사용되는 컴포넌트 스타일 */
+    .certificationItem-click {
+        @apply w-full h-16 bg-gray0 rounded-full border-[1px] border-second
+    }
+    .certificationItem-not-clicked {
+        @apply w-full h-16 bg-gray0 rounded-full
+    }
+}
+
+@layer components {
+    /* Button 컴포넌트 backgrond primary인 className */
+    .bg-blue-button {
+        @apply w-fit px-4 py-2 text-h6 bg-primary flex rounded-full text-white
+    }
+    /* Button 컴포넌트 border gray2인 className */
+    .border-gray-button {
+        @apply bg-white border-gray2 border-[1px] text-black
+    }
+    .border-primary-button {
+        @apply px-4 py-2 text-h6 flex rounded-full bg-white border-primary border-[1px] text-primary
+    }
+    .border-second-button {
+        @apply px-4 py-2 text-h6 flex rounded-full bg-white border-second border-[1px] text-second
+    }
+}
+
+@layer components {
+    /* 목표 설정 content className */
+    .goal-setting-content {
+        @apply rounded-[16px] bg-gray0 py-3 px-4 w-full
+    }
+}
+
+@layer components {
+    /* 목표 설정 content className */
+    .tag-not-clicked {
+        @apply flex-shrink-0 border-[1px] border-gray2 rounded-full py-2 px-4 bg-white text-h6 text-gray4
+    }
+    .tag-clicked {
+        @apply flex-shrink-0 rounded-full py-2 px-4 bg-black text-h6 text-white
+    }
+}
